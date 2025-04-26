@@ -1,0 +1,187 @@
+#one, #three, #five {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#one h1, #three h1, #five h1 {
+    padding: 10px;
+    text-align: center;
+}
+#two {
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; 
+}
+
+#two img:nth-of-type(1) {
+    width: 30vw;
+}
+#two img:nth-of-type(2) {
+    width: 20vw;
+    height: 100%;
+}
+#two img:nth-of-type(3) {
+    width: 20vw;
+}
+
+@media screen and (max-width: 600px) {
+    #two {
+        flex-direction: column;
+    }
+    #two img:nth-of-type(1) {
+        width: 100%;
+    }
+    #two img:nth-of-type(2) {
+        width: 100%;
+    }
+    #two img:nth-of-type(3) {
+        width: 100%;
+    }
+}
+#four {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+#four img {
+    width: 25%;
+}
+@media screen and (max-width: 600px) {
+    #four img {
+        width: 50%;
+    }
+}
+
+#six {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+#six img:first-child{
+    width: 20vw;
+    height: 100%;
+}
+#six img:nth-child(2) {
+    width: 50vw;
+}
+@media screen and (max-width: 900px) {
+    #six {
+        flex-direction: column;
+        align-items: center;
+    }
+    #six img:first-child {
+        width: 50%;
+    }
+    #six img:nth-child(2) {
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    #six {
+        margin-bottom: -25px;
+    }
+}
+
+#six {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
+}
+/* CAROUSEL - Източник: W3Schools - https://www.w3schools.com/howto/howto_js_slideshow.asp */
+#seven {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-radius: 0
+}
+#seven h2, #seven h4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+#seven h4 {
+    margin-top: -10px;
+}
+* {
+    box-sizing: border-box;
+}
+
+#all-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 44vw;
+    max-height: 750px;
+    
+}
+@media screen and (max-width: 600px) {
+    #all-container {
+        height: 49vw;
+    }
+}
+
+#carousel-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+#carousel-container img {
+    width: 44vw;
+    height: 30%;
+
+    user-select: none;
+}
+.mySlides:first-of-type {
+    display: block;
+}
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    width: auto;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size:32px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(189,216,229,0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size-adjust: 0.52;
+    padding: 8px 12px;
+
+    background-color: #333;
+    width: 44vw;    
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}

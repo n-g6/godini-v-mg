@@ -1,0 +1,97 @@
+#one {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+#one h1 {
+    padding: 5px;
+    
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+#two {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin-top: -10px;
+}
+
+/* CAROUSEL - Източник: W3Schools - https://www.w3schools.com/howto/howto_js_slideshow.asp */
+* {
+    box-sizing: border-box;
+}
+
+#all-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 44vw;
+    max-height: 750px;
+}
+
+#carousel-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+#carousel-container img {
+    width: 44vw;
+    height: 30%;
+
+    user-select: none;
+}
+.mySlides:first-of-type {
+    display: block;
+}
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    width: auto;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size:32px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(189,216,229,0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size-adjust: 0.52;
+    padding: 8px 12px;
+
+    background-color: #333;
+    width: 44vw;    
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
