@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приключения</title>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/adventures.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/common.js"></script>
+    <script src="scripts/carousel.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>Моите години в МГ "Баба Тонка"</h1>
+        <div id="links">
+            <a href="index.html">Начало</a>
+            <a href="myclass.html">Класът ми</a>
+            <a class="select" href="adventures.html">Приключения</a>
+            <a href="obuch.html">Обучение</a>
+            <a href="contact-form.html">Връзка с мен</a>
+        </div>
+        <i onclick="showDropdown()" id="menu-button" class="fa fa-bars"></i>
+        <div class="links-dropdown visible">
+            <a href="index.html">Начало</a>
+            <a href="myclass.html">Класът ми</a>
+            <a class="select" href="adventures.html">Приключения</a>
+            <a href="obuch.html">Обучение</a>
+            <a href="contact-form.html">Връзка с мен</a>
+        </div>
+    </nav>
+    <section id="one">
+        <h1>Драми, експедиции, екскурзии ... всичко, което не е за предната страница</h1>
+    </section>
+    <section id="two">
+        <h2 id="big-title">Екскурзия до Казанлък, Копривщица и Сопот</h2>
+        <h4 id="small-title">29-31 октомври 2022г.</h4>
+        <div id="all-container">
+            <a class="prev" onclick="plusSlides(-1); changeTitles();">&#10094;</a>
+            <div id="carousel-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 1: В Копривщица</div>
+                    <img src="images/priklyuch/kazanluk-10kl/koprivsht.jpg">
+                </div>
+    
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 2: В Сопот</div>
+                    <img src="images/priklyuch/kazanluk-10kl/sopot.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 3: Севт III (Долината на тракийските царе)</div>
+                    <img src="images/priklyuch/kazanluk-10kl/vladetel.jpg">
+                </div>
+    
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 4: Обща снимка</div>
+                    <img src="images/priklyuch/kazanluk-10kl/obshta.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 5: Началото</div>
+                    <img src="images/priklyuch/cherven-1put/1.jpg">
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 6: Началото</div>
+                    <img src="images/priklyuch/cherven-1put/2.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 7: Карта на средновековния град</div>
+                    <img src="images/priklyuch/cherven-1put/3.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 8: Птичи поглед над Червен</div>
+                    <img src="images/priklyuch/cherven-1put/4.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 9: До крепостта</div>
+                    <img src="images/priklyuch/cherven-1put/5.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 10: Текст, чието съдържание не бих могъл да разчета</div>
+                    <img src="images/priklyuch/cherven-1put/6.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 11: Обща снимка</div>
+                    <img src="images/priklyuch/cherven-1put/7.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 12: Рожден ден на г-жа Стоянова</div>
+                    <img src="images/priklyuch/shirokovo-11kl/1.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 13: Рожден ден на г-жа Стоянова</div>
+                    <img src="images/priklyuch/shirokovo-11kl/2.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 14: Деян Драгоев обяснява</div>
+                    <img src="images/priklyuch/shirokovo-11kl/3.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 15: Ние действаме</div>
+                    <img src="images/priklyuch/shirokovo-11kl/4.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 16: Ние действаме</div>
+                    <img src="images/priklyuch/shirokovo-11kl/5.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 17: Светлана Великова обяснява</div>
+                    <img src="images/priklyuch/cherven-2put/1.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 18: Пейзаж</div>
+                    <img src="images/priklyuch/cherven-2put/2.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 19: Светлана Великова обяснява</div>
+                    <img src="images/priklyuch/cherven-2put/3.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 20: Главната част от средновековен Червен</div>
+                    <img src="images/priklyuch/cherven-2put/4.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 21: Светлана Великова обяснява</div>
+                    <img src="images/priklyuch/cherven-2put/5.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 22: Светлана Великова обяснява</div>
+                    <img src="images/priklyuch/cherven-2put/6.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 23: Църква №16</div>
+                    <img src="images/priklyuch/cherven-2put/7.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 24: Светлана Великова обяснява</div>
+                    <img src="images/priklyuch/cherven-2put/8.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 25: Прескооооо</div>
+                    <img src="images/priklyuch/cherven-2put/9.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 26: Снимка пред "онзи" мост</div>
+                    <img src="images/priklyuch/cherven-2put/10.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 27: Обща снимка</div>
+                    <img src="images/priklyuch/cherven-2put/11.png">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 28: Стенописи</div>
+                    <img src="images/priklyuch/ivanovo-11kl/1.jpg">
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 29: Ребёнок наслаждается природой</div>
+                    <img src="images/priklyuch/ivanovo-11kl/2.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 30: Стенописи</div>
+                    <img src="images/priklyuch/ivanovo-11kl/3.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 31: Стенописи</div>
+                    <img src="images/priklyuch/ivanovo-11kl/4.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 32: Евгени Георгиев обяснява</div>
+                    <img src="images/priklyuch/ivanovo-11kl/5.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 33: Панорама</div>
+                    <img src="images/priklyuch/ivanovo-11kl/6.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 34: Емо от 11. г</div>
+                    <img src="images/priklyuch/ivanovo-11kl/7.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 35: Още един пещерен покемон</div>
+                    <img src="images/priklyuch/ivanovo-11kl/8.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 36: Обща снимка с г-жа Стоянова</div>
+                    <img src="images/priklyuch/ivanovo-11kl/9.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 37: Обща снимка с г-жа Тодорова</div>
+                    <img src="images/priklyuch/ivanovo-11kl/10.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 38: Чистим с Венци и Преско от 11. клас</div>
+                    <img src="images/priklyuch/cherven-3put/1.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 39: Чистим с Венци и Преско от 11. клас</div>
+                    <img src="images/priklyuch/cherven-3put/2.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 40: Работа, работа, работа... с г-н Рашков</div>
+                    <img src="images/priklyuch/cherven-3put/3.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 41: Почивка</div>
+                    <img src="images/priklyuch/cherven-3put/4.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 42: Обща снимка</div>
+                    <img src="images/priklyuch/cherven-3put/5.jpg">
+                </div>
+            </div>
+            <a class="next" onclick="plusSlides(1); changeTitles();">&#10095;</a>
+        </div>
+    </section>
+</body>
+</html>

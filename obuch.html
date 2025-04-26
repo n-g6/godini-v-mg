@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обучение</title>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/obuch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/common.js"></script>
+    <script src="scripts/carousel.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>Моите години в МГ "Баба Тонка"</h1>
+        <div id="links">
+            <a href="index.html">Начало</a>
+            <a href="myclass.html">Класът ми</a>
+            <a href="adventures.html">Приключения</a>
+            <a class="select" href="obuch.html">Обучение</a>
+            <a href="contact-form.html">Връзка с мен</a>
+        </div>
+        <i onclick="showDropdown()" id="menu-button" class="fa fa-bars"></i>
+        <div class="links-dropdown visible">
+            <a href="index.html">Начало</a>
+            <a href="myclass.html">Класът ми</a>
+            <a href="adventures.html">Приключения</a>
+            <a class="select" href="obuch.html">Обучение</a>
+            <a href="contact-form.html">Връзка с мен</a>
+        </div>
+    </nav>
+
+    <section id="one">
+        <h1>Първо, любовта ни към някои учители...</h1>
+    </section>
+
+    <section id="two">
+        <img src="images/obuchenie/lyubov/stankov_bog.jpg" alt="Г-н Станков">
+        <img src="images/obuchenie/lyubov/nikolov_podaruk.jpg" alt="Подарък за г-н Николов">
+        <img src="images/obuchenie/lyubov/mahi.png" alt="Махито">
+    </section>
+
+    <section id="three">
+        <h1>После, любовта ни към други...</h1>
+    </section>
+
+    <section id="four">
+        <img src="images/obuchenie/lyubov/lekova.jpg" alt="Любов (или не точно) към г-жа Лекова">
+        <h3>P.S. Обичаме ги всички, да не се обиждат</h3>
+    </section>
+
+    <section id="five">
+        <h1>Някои лични постижения (за които имам снимки)</h1>
+    </section>
+
+    <section id="six">
+        <img src="images/obuchenie/postizh/angl-8kl.jpg" alt="Награда след участието в националния кръг на олимпиадата по английски през учебната 2020/2021 година">
+        <img src="images/obuchenie/postizh/istoriq-10kl.png" alt="МГ доминира на олимпиадата по история в Русе - 2022/2023 година">
+    </section>
+    <section id="seven">
+        <h2 id="big-title">Национално състезание по финансова грамотност - 3-то място</h2>
+        <h4 id="small-title">16 март 2024г.</h4>
+        <div id="all-container">
+            <a class="prev" onclick="plusSlides(-1);">&#10094;</a>
+            <div id="carousel-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 1: Сградата на СМГ</div>
+                    <img src="images/obuchenie/postizh/fingram-11kl/1.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 2: Откриване</div>
+                    <img src="images/obuchenie/postizh/fingram-11kl/2.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 3: Откриване</div>
+                    <img src="images/obuchenie/postizh/fingram-11kl/3.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 4: Грамота за участие</div>
+                    <img src="images/obuchenie/postizh/fingram-11kl/4.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 5: Обща снимка</div>
+                    <img src="images/obuchenie/postizh/fingram-11kl/5.png">
+                </div>
+            </div>
+            <a class="next" onclick="plusSlides(1);">&#10095;</a>
+    </section>
+</body>
+</html>

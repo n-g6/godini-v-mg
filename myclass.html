@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Класът ми</title>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/myclass.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/common.js"></script>
+    <script src="scripts/carousel.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>Моите години в МГ "Баба Тонка"</h1>
+        <div id="links">
+            <a href="index.html">Начало</a>
+            <a class="select" href="myclass.html">Класът ми</a>
+            <a href="adventures.html">Приключения</a>
+            <a href="obuch.html">Обучение</a>
+            <a href="contact-form.html">Връзка с мен</a>
+        </div>
+        <i onclick="showDropdown()" id="menu-button" class="fa fa-bars"></i>
+        <div class="links-dropdown visible">
+            <a href="index.html">Начало</a>
+            <a class="select" href="myclass.html">Класът ми</a>
+            <a href="adventures.html">Приключения</a>
+            <a href="obuch.html">Обучение</a>
+            <a href="contact-form.html">Връзка с мен</a>
+        </div>
+    </nav>
+    <section id="one">
+        <div id="left">
+            <h1>8. В</h1>
+            <img src="images/klas_snimka_1.jpg" alt="Обща снимка от 8. клас">
+        </div>
+        <div id="right">
+            <h1>12. В</h1>
+            <img src="images/klas_snimka_2.jpg" alt="Обща снимка от 12. клас">
+        </div>
+    </section>
+    <section id="two">
+        <h1>Кратко обобщение</h1>
+        <p>В 8-ми клас бяхме 26-ма, вече сме 27.</p>
+        <p>В 8-ми клас имахме отлични оценки, вече... не съвсем.</p>
+        <p>В 8-ми клас бяхме щастливи, вече не сме.</p>
+        <h3>Насладете се на още снимки по-надолу.</h3>
+    </section>
+    <section id="three">
+        <h1>Още снимки</h1>
+        <div id="all-container">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <div id="carousel-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 1: 8. клас - при г-жа Александрова</div>
+                    <img src="images/carousel/sashka_8kl.jpg">
+                </div>
+    
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 2: 9. клас - обща снимка</div>
+                    <img src="images/carousel/9klas.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 3: 10. клас - събиране в ресторант "Кръстникът"</div>
+                    <img src="images/carousel/krustnika_10kl.jpg">
+                </div>
+    
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 4: 11. клас - събиране в механа "Чифлика"</div>
+                    <img src="images/carousel/chiflika_11kl.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 5: 11. клас - надиграване</div>
+                    <img src="images/carousel/nadigravane_11kl.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 6: 11. клас - 2-ри в надиграването</div>
+                    <img src="images/carousel/nadigravane_2_11kl.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 7: 10. клас - предколедно събиране</div>
+                    <img src="images/carousel/koleda_10kl.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 8: 8. клас - Захари и Георги в подготовка за велик актьорски подвиг</div>
+                    <img src="images/carousel/vuzstanovka_1.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 9: 8. клас - Актьор Венци в интересен вид</div>
+                    <img src="images/carousel/vuzstanovka_2.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 10: 8. клас - Актриса Галя в интересен вид</div>
+                    <img src="images/carousel/vuzstanovka_3.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 11: Подарък към г-н Николов</div>
+                    <img src="images/carousel/podaruk_nikolov.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 12: Г-жа Александрова с Матейчовците</div>
+                    <img src="images/carousel/sashka-mateycho.png">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 13: Рекламите на math.ru, вероятно... </div>
+                    <img src="images/carousel/kuma_pecheli.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 14: 11. клас - РП История :)</div>
+                    <img src="images/carousel/venci.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 15: 11. клас - Фестивал на науката (17.04.2024)</div>
+                    <img src="images/carousel/17.04.2024.jpg">
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">Снимка 16: 12. клас - Quick maths</div>
+                    <img src="images/carousel/phil.jpg">
+                </div>
+
+
+            </div>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+    <section id="four">
+        <h1>Ето и едно видео &#128512;</h1>
+        <video src="videos/marto-pada.mp4" controls></video>
+    </section>
+</body>
+</html>
