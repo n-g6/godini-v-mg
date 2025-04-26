@@ -6,7 +6,7 @@ body {
     margin: 0;
     max-width: 100%;
 
-    background: url('../bg.png');
+    background: url('../images/bg.png');
 }
 #menu-button {
     display: none;
